@@ -1,8 +1,6 @@
 package com.hw.homeworks.hw3;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Maps {
 
@@ -21,18 +19,29 @@ public class Maps {
         }
     }
 
-//
-//    public static <K, V> Map<V, HashSet<K>> revertMap(HashMap<? extends K, ? extends V> mapToRevert){
-//        HashMap<V, HashSet<K>> map = new HashMap<>();
+
+    public static <K, V> Map<V, HashSet<K>> revertMap(Map<? extends K, ? extends V> map){
+        HashMap<V, HashSet<K>> mapFinal = new HashMap<>();
 //        for (Map.Entry<? extends K, ? extends V> entry: mapToRevert.entrySet()){
 //            map.put(entry.getValue(), entry.getKey());
 //        }
-//    }
+        Set<K> keys = (Set<K>) map.keySet();
+        for (K key: keys){
+            V value = map.get(key);
+            mapFinal.compute(value, (v, k) ->{
+                if (k == null)
+                    k = new HashSet<>();
+                k.add(key);
+                return k;
+            });
+        }
+        return mapFinal;
+    }
 
-    public static <K,V> Map<V,K> revertMap(HashMap<K,V> mapToRevert) {
-        HashMap<V,K> rev = new HashMap<>();
+    public static <K,V> Map<V, HashSet<K>> revertMap(HashMap<K,V> mapToRevert) {
+        HashMap<V,HashSet<K>> rev = new HashMap<>();
         for(Map.Entry<K,V> entry : mapToRevert.entrySet())
-            rev.put(entry.getValue(), entry.getKey());
+            rev.put(entry.getValue(), (HashSet<K>) entry.getKey());
         return rev;
     }
 
