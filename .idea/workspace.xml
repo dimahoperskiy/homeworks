@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9390a0fa-e2b5-478e-a5fb-9d465918a1ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Task1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/Maps.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/Maps.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1i9ogSB7r2YTzTPLX8GqpCpjTUg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hw3" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9390a0fa-e2b5-478e-a5fb-9d465918a1ef" name="Default Changelist" comment="" />
+      <created>1601329281291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601329281291</updated>
+      <workItem from="1601329283884" duration="125000" />
+      <workItem from="1601358284997" duration="397000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
