@@ -1,4 +1,4 @@
-package com.hw.homeworks.hw5;
+package com.hw.homeworks.hw5.task1;
 
 public class Invoker {
 
