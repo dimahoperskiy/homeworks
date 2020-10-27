@@ -1,4 +1,4 @@
-package com.hw.homeworks.samostRabota;
+package com.hw.homeworks.samostRabota.sr1;
 
 abstract class Car {
     protected String color;

@@ -1,4 +1,4 @@
-package com.hw.homeworks.samostRabota;
+package com.hw.homeworks.samostRabota.sr1;
 
 public class Main {
     public static void main(String[] args) {
