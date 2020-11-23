@@ -6,7 +6,7 @@
     <session-factory>
         <property name="hibernate.connection.url">jdbc:postgresql://localhost:4000/users_autos</property>
         <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">injustice</property>
+        <property name="hibernate.connection.password">######</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL9Dialect</property>
         <property name="show_sql">true</property>
         <property name="connection_pool_size">1</property>
