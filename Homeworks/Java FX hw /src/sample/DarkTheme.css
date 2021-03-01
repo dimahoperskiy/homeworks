@@ -1,0 +1,22 @@
+.background {
+    -fx-background-color: #9900ff;
+}
+
+.background-left {
+    -fx-background-color: #bd59ff;
+}
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+}
+
+.button:hover {
+    -fx-background-color: #bd59ff;
+}
+
+.split-pane {
+    -fx-background-color: black;
+}
